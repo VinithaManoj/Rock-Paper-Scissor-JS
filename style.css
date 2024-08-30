@@ -1,0 +1,73 @@
+.Main-Heading{
+    background-color: black;
+    height: 60px;
+}
+
+.Main-Heading h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 80px;
+    cursor: pointer;
+   
+}
+
+.choice{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice img{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius:50%;   
+}
+
+.choice:hover{
+    background-color: black;
+    
+}
+
+.Score-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+#user-score,
+#comp-score{
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+.fighters{
+    margin-top: -30px;
+}
+
+.msg-container{
+    text-align: center;
+    margin-top: 50px;   
+}
+
+#msg{
+    font-size: 35px;
+    background-color: #081631;
+    color: #ffffff;
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
